@@ -21,9 +21,9 @@ puts "----------"
 
 # Your code goes here ...
 
-@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
-@store1.employees.create(first_name: "Gary", last_name: "Jipp", hourly_rate: 50)
-@store1.employees.create(first_name: "Chris", last_name: "Nally", hourly_rate: 75)
+@store1.employee.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
+@store1.employee.create(first_name: "Gary", last_name: "Jipp", hourly_rate: 50)
+@store1.employee.create(first_name: "Chris", last_name: "Nally", hourly_rate: 75)
 
-@store2.employees.create(first_name: "Lion", last_name: "El'Jonson", hourly_rate: 100000000)
+@store2.employee.create(first_name: "", last_name: "El'Jonson", hourly_rate: 100000000)
 
